@@ -1,6 +1,4 @@
 # a different way or dealing with the users choice
-students= []
-
 
 def displayMenu():
     print("What would you like to do?")
@@ -12,11 +10,8 @@ def displayMenu():
 
 def doAdd():
     print("do add")
-
-
 def doView():
     print("do View")
-
 def doNothing():
     pass
 
@@ -27,7 +22,6 @@ choiceMap = {
     'q': doNothing # q is a valid choice
 
 }
-
 #main program
 choice = displayMenu()
 while(choice != 'q'):
