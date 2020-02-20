@@ -9,7 +9,6 @@ for n in range(0,numberOfNumbers):
 print ("queue is {}".format(queue))
 
 while len(queue) != 0:
-    
     currentNumber = queue.pop(0)
     print ("current Number is {} and the queue is {} ".format(currentNumber, queue))
 
